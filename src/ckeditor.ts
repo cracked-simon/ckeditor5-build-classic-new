@@ -102,6 +102,7 @@ class Editor extends ClassicEditor {
 				'blockQuote',
 				'insertTable',
 				'mediaEmbed',
+				'htmlEmbed',
 				'undo',
 				'redo'
 			]
