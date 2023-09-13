@@ -37,7 +37,6 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
-import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -72,8 +71,7 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 	Alignment,
 	Font,
-	WordCount,
-	HtmlEmbed
+	WordCount
 ];
 
 // Editor configuration.
@@ -102,7 +100,6 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
-			'htmlEmbed',
 			'|',
 			'undo',
 			'redo'
