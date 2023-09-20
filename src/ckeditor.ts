@@ -89,9 +89,16 @@ class Editor extends ClassicEditor {
 			items: [
 				'heading',
 				'|',
+				'fontSize',
+				'fontColor',				
 				'bold',
 				'italic',
+				'underline',
+				'strikethrough',
+				'subscript',
+				'superscript',				
 				'link',
+				'alignment',
 				'bulletedList',
 				'numberedList',
 				'|',
@@ -107,16 +114,26 @@ class Editor extends ClassicEditor {
 				'redo'
 			]
 		},
-		language: 'en',
+		fontSize: {
+			options: [
+				9,
+				11,
+				13,
+				'default',
+				17,
+				19,
+				21
+			]
+		},	
 		image: {
 			toolbar: [
-				'imageTextAlternative',
-				'toggleImageCaption',
-				'imageStyle:inline',
-				'imageStyle:block',
-				'imageStyle:side'
+				'imageStyle:full',
+				'imageStyle:side',
+				'|',
+				'imageTextAlternative'
 			]
-		},
+		},		
+		language: 'en',
 		table: {
 			contentToolbar: [
 				'tableColumn',

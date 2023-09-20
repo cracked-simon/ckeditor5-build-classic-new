@@ -31,10 +31,13 @@ declare class Editor extends ClassicEditor {
         toolbar: {
             items: string[];
         };
-        language: string;
+        fontSize: {
+            options: (string | number)[];
+        };
         image: {
             toolbar: string[];
         };
+        language: string;
         table: {
             contentToolbar: string[];
         };
