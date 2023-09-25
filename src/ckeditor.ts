@@ -130,7 +130,8 @@ class Editor extends ClassicEditor {
 				'imageStyle:full',
 				'imageStyle:side',
 				'|',
-				'imageTextAlternative'
+				'imageTextAlternative',
+				'toggleImageCaption'
 			]
 		},		
 		language: 'en',
